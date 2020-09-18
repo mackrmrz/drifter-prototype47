@@ -1,0 +1,29 @@
+:root {
+    --primary-color: rgba(204, 202, 204, 0.75);
+    --secondary-color: rgba(143, 66, 143);
+    --font-color: rgba(31, 25, 31);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    background-color:  rgba(204, 202, 204, 0.75);
+    color:  rgba(143, 66, 143);
+    font-family: "Grandstander", cursive;
+}
+
+nav{
+    margin: -17px;
+    width: 100%;
+}
+
+img {
+    object-fit: cover;
+    width: 400px;
+}

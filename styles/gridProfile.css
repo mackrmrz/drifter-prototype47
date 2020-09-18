@@ -1,0 +1,79 @@
+.grid-profile-pictures{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    width: 100%;
+
+   
+}
+
+.container {
+    display: grid;
+    grid-template-rows: [top-s] 244px [top-e middle-s] 244px [middle-e last-s] 1fr [ last-e];
+    grid-template-columns: [first-s] 250px [first-e second-s] 250px [second-e third-s] 250px [third-e];
+    height: 100%;
+}
+
+.box {
+    -webkit-box-shadow: 0px 0px 38px -13px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 38px -13px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 38px -13px rgba(0,0,0,0.75);
+    padding: 20px 20px;
+     /* grid-gap: 1rem; */
+} 
+
+.zero{
+    grid-row: top-s/top-e;
+    grid-column: first-s/first-e;
+    padding: 22px 22px;
+    background: url(../images/gridProfile/room.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.one{
+    grid-row: middle-s/middle-e;
+    grid-column:first-s/first-e;
+    padding: 22px 22px;
+    background: url(../images/gridProfile/cake14.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.two{
+    grid-row: top-s/top-e;
+    grid-column: second-s/second-e;
+    background: url(../images/gridProfile/bigbroother.jpeg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center center;
+}
+
+.three {
+    grid-row: top-s/top-e;
+    grid-column: third-s/third-e;
+    background: url(../images/gridProfile/fuzzy.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.four{
+    grid-row: middle-s/middle-e;
+    grid-column: third-s/third-e;
+    background: url(../images/gridProfile/closeup.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.five{
+    grid-row: middle-s/middle-e;
+    grid-column: second-s/second-e;
+    background: url(../images/gridProfile/talk-room.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}

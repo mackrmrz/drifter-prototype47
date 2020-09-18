@@ -1,0 +1,22 @@
+.content {
+    max-width: 1100;
+    margin: auto;
+    overflow: auto;
+    padding: 0 2rem;
+}
+
+.card {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    /* grid-template-columns: minmax(22px 350px) 1fr [spacce-e] 400px; */
+    background: #ffffff;
+    margin-bottom: 2rem;
+}
+
+
+.card img {
+    height: 250px;
+}
+.description-wrapper h1 {
+   padding: 44px 44px;
+}
